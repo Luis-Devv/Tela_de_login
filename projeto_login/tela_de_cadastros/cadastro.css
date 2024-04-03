@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(21, 96, 193);
+}
+
+.geral-div {
+    background-color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 120px;
+    padding-left: 120px;
+    border-radius: 8px;
+}
+
+.button-voltar {
+    color: rgb(26, 115, 232);
+    border: none;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: white;
+    cursor: pointer;
+    transition: box-shadow 0.15s, background-color;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.button-voltar:hover {
+    color: blue;
+}
+
+
+.titulo-e-cabecalho {
+    color: rgb(26, 115, 232);
+    text-align: center;
+    font-family: serif;
+    font-size: 26px;
+}
+.paragrafo{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-family: serif;
+}
+
+.input-geral {
+    border-style: solid;
+    border-color: rgb(26, 115, 232);
+    border-width: 1px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    transition: box-shadow 0.15s, opacity 0.15s;
+}
+
+.input-geral:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.botao-enviar {
+    border: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: rgb(26, 115, 232);
+    margin-left: 45px;
+    margin-top: px;
+    cursor: pointer;
+    transition: box-shadow 0.15s, background-color 0.15s, opacity 0.15s;
+}
+
+.botao-enviar:hover {
+    background-color: rgb(26, 115, 204);
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.8);
+}
+
+.botao-enviar:active {
+    opacity: 0.8;
+}
